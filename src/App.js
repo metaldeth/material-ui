@@ -16,6 +16,7 @@ import {
 } from '@material-ui/core';
 import { Menu, Layers, PlayCircleFilled } from '@material-ui/icons';
 import { makeStyles } from '@material-ui/core/styles';
+import EnhancedTable from './test';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -162,6 +163,7 @@ export const App = () => {
             ))}
           </Grid>
         </Container>
+        <EnhancedTable/>
       </main>
     </>
   );
